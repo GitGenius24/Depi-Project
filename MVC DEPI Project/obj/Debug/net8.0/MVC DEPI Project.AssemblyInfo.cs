@@ -16,7 +16,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MVC DEPI Project")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ebe1da9b2212af0bab268e4e24173f81feadbcfc")]
 [assembly: System.Reflection.AssemblyProductAttribute("MVC DEPI Project")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MVC DEPI Project")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

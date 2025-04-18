@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 using MVC_DEPI_Project.Models;
+using MVC_DEPI_Project.Models.Entities;
 
 namespace MVC_DEPI_Project.Data
 {
@@ -23,5 +24,8 @@ namespace MVC_DEPI_Project.Data
             builder.Entity<IdentityUserToken<string>>().ToTable("UserToken", "Security");
 
         }
+        public virtual DbSet<Category> Category { get; set; } = null!;
+        public virtual DbSet<Product> Product { get; set; } = null!;
+
     }
 }

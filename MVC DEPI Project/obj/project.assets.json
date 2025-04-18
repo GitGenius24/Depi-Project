@@ -8654,19 +8654,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\CTC\\.nuget\\packages\\": {}
+    "C:\\Users\\Nada Tarek\\.nuget\\packages\\": {},
+    "D:\\program\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\MVC_Projects\\MVC DEPI Project\\MVC DEPI Project\\MVC DEPI Project.csproj",
+      "projectUniqueName": "C:\\Users\\Nada Tarek\\source\\repos\\GitGenius24\\Depi-Project\\MVC DEPI Project\\MVC DEPI Project.csproj",
       "projectName": "MVC DEPI Project",
-      "projectPath": "C:\\MVC_Projects\\MVC DEPI Project\\MVC DEPI Project\\MVC DEPI Project.csproj",
-      "packagesPath": "C:\\Users\\CTC\\.nuget\\packages\\",
-      "outputPath": "C:\\MVC_Projects\\MVC DEPI Project\\MVC DEPI Project\\obj\\",
+      "projectPath": "C:\\Users\\Nada Tarek\\source\\repos\\GitGenius24\\Depi-Project\\MVC DEPI Project\\MVC DEPI Project.csproj",
+      "packagesPath": "C:\\Users\\Nada Tarek\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Nada Tarek\\source\\repos\\GitGenius24\\Depi-Project\\MVC DEPI Project\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "D:\\program\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\CTC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Nada Tarek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8686,7 +8691,13 @@
         "warnAsError": [
           "NU1605"
         ]
-      }
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.100"
     },
     "frameworks": {
       "net8.0": {
@@ -8746,7 +8757,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
