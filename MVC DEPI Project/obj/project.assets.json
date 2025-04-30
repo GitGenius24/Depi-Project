@@ -8654,23 +8654,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Nada Tarek\\.nuget\\packages\\": {},
-    "D:\\program\\Shared\\NuGetPackages": {}
+    "C:\\Users\\admin\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Nada Tarek\\source\\repos\\GitGenius24\\Depi-Project\\MVC DEPI Project\\MVC DEPI Project.csproj",
+      "projectUniqueName": "E:\\Nour\\DEPI-Full Stack\\REPOS\\MVC DEPI Project\\MVC DEPI Project.csproj",
       "projectName": "MVC DEPI Project",
-      "projectPath": "C:\\Users\\Nada Tarek\\source\\repos\\GitGenius24\\Depi-Project\\MVC DEPI Project\\MVC DEPI Project.csproj",
-      "packagesPath": "C:\\Users\\Nada Tarek\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Nada Tarek\\source\\repos\\GitGenius24\\Depi-Project\\MVC DEPI Project\\obj\\",
+      "projectPath": "E:\\Nour\\DEPI-Full Stack\\REPOS\\MVC DEPI Project\\MVC DEPI Project.csproj",
+      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+      "outputPath": "E:\\Nour\\DEPI-Full Stack\\REPOS\\MVC DEPI Project\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "D:\\program\\Shared\\NuGetPackages"
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Nada Tarek\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -8749,6 +8749,24 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[8.0.15, 8.0.15]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[8.0.15, 8.0.15]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[8.0.15, 8.0.15]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[8.0.15, 8.0.15]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -8757,7 +8775,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.105/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
