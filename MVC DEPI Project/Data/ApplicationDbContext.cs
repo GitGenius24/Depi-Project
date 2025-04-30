@@ -26,6 +26,10 @@ namespace MVC_DEPI_Project.Data
         }
         public virtual DbSet<Category> Category { get; set; } = null!;
         public virtual DbSet<Product> Product { get; set; } = null!;
+        public virtual DbSet<Cart> Cart{ get; set; } = null!;
+        public DbSet<Order> Order { get; set; }
+        public DbSet<OrderItem> OrderItem { get; set; }
+        public DbSet<Cartitem> Cartitem { get; set; }
 
     }
 }
